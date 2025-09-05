@@ -1,0 +1,21 @@
+{
+  "name": "Aditya Malik Portfolio",
+  "short_name": "Aditya Malik",
+  "description": "Portfolio website of Aditya Malik - Software Developer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563EB",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ]
+}

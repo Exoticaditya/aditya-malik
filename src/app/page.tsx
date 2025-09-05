@@ -1,3 +1,4 @@
+import Navigation from "@/components/Navigation";
 import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
 import Skills from "@/components/sections/Skills";
@@ -8,14 +9,17 @@ import Contact from "@/components/sections/Contact";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Education />
-      <Certifications />
-      <Contact />
-    </main>
+    <>
+      <Navigation />
+      <main className="min-h-screen bg-gray-50 dark:bg-gray-900">
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Education />
+        <Certifications />
+        <Contact />
+      </main>
+    </>
   );
 }
